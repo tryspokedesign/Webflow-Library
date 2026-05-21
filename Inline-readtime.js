@@ -36,6 +36,6 @@ window.Webflow.push(() => {
 
     const readTime = Math.max(1, Math.ceil(wordCount / wordsPerMinute));
 
-    $output.text(`${readTime} min read`);
+    $output.text(`${readTime}`);
   }
 });
